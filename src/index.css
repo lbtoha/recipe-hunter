@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* Satisfy, Lora Font */
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Satisfy&display=swap");
+
+.my-container {
+  @apply max-w-[1024px] mx-auto;
+}
+
+.banner-image {
+  background-image: url("https://images.unsplash.com/photo-1571805529673-0f56b922b359?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+}
+
+.LazyLoad {
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.is-visible {
+  opacity: 1;
+}
